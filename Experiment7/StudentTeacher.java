@@ -31,7 +31,7 @@ class Student extends Teacher {
 public class StudentTeacher {
 
     public static void main(String[] args) {
-        Student student = new Student("Alice", "Mathematics", 123, "A");
+        Student student = new Student("Sayantan", "Mathematics", 123, "A");
         student.displayStudentInfo();
     }
 }
