@@ -40,7 +40,7 @@ class Periodical extends Book {
 
 public class Study{
     public static void main(String[] args) {
-        Periodical periodical = new Periodical(1, "Science Weekly", "John Doe", 10.0, "Weekly");
+        Periodical periodical = new Periodical(1, "AIDS weekly", "Vipul", 10.0, "Weekly");
         periodical.displayPeriodicalDetails();
         
         periodical.modifyPrice(12.0);
